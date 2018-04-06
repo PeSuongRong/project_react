@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2018, 2:18:08 PM
+    Author     : Admin
+*/
+@import "mixins.scss";
+@import "_reset.scss";
+
+.product{
+  overflow: hidden;
+  &:hover{
+    button{
+      @include transition(0.6s);
+      &.btn-danger{
+      visibility: visible;
+      margin-left: 0px;
+      }
+      &.btn-primary{
+        visibility: visible;
+      }
+    }
+  }
+  .fix-width{
+    max-height: 200px;
+  }
+  button{
+    position: relative;
+    &.btn-danger{
+    margin-left: 100%;
+    visibility: hidden;
+    }
+    &.btn-primary{
+      visibility: hidden;
+      position: absolute;
+      right: 0;
+      bottom:0;
+    }
+  }
+}
+.color{
+  li{
+    margin: 7px;
+    float:left;
+    height:40px;
+    width:40px;
+    &:hover{
+      border:1px solid #000;
+    }
+    &:nth-of-type(1){
+      background-color: red;
+    }
+    &:nth-of-type(2){
+      background-color: green;
+    }
+    &:nth-of-type(3){
+      background-color: purple;
+    }
+  }
+}
