@@ -11,13 +11,16 @@ class Projectcolora extends Component{
             backgroundColor:color
           };
   };
+  setActiveColor(color){
+    this.props.onReceiveColor(color);
+  }
   render(){
     var elementcolor = this.state.colors.map((color,index) => {
       return (
               <li key={index} 
-                  style={ this.showColor(color)} 
+                  style={this.showColor(color)} 
                   className={this.props.color_prop === color ? 'active' : ''}
-                 
+                  onClick={()=> this.setActiveColor(color)}
               >
               </li>
               ); 

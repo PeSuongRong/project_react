@@ -33,7 +33,7 @@ class App extends Component {
       {
         id:4,
         name:'Samsung s9',
-        src:'https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon088401.jpg',
+        src:'https://cdn.fptshop.com.vn/Uploads/Originals/2017/7/26/636366659002447982_800.jpg',
         price:2500000,
         status:true
       }

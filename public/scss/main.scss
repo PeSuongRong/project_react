@@ -48,10 +48,13 @@ and open the template in the editor.
     height:32px;
     width:40px;
     &:hover{
+      @include transition(0.5s);
       @extend li.active;
     }
     &.active{
       border:1px solid #000;
+      height: 35px;
+      width: 43px;
     }
   }
 }
