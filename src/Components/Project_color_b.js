@@ -24,7 +24,7 @@ class Projectcolorb extends Component{
                 >Tăng</button>  &nbsp;
                 <button 
                   className="btn btn-default"
-                  onClick ={()=> this.onchangereset()}
+                  onClick ={ ()=> this.onchangereset()}
                 >Reset</button>
               </div>
             </div>

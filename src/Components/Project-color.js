@@ -28,13 +28,11 @@ class Projectcolor extends Component{
       });
     }
   };
-  onReset = (value) =>{
-    if(value){
-     this.setState={
-       color: "red",
-       fontSize: 16
-     }; 
-    };
+  onReset = () =>{
+    this.setState({
+      fontSize: 16,
+      color:"red"
+    });
   }
   render(){
     return(
@@ -70,7 +68,7 @@ class Projectcolor extends Component{
                 <input 
                   className="form-control" 
                   placeholder="Trần Hải Yến" 
-                  style={{borderColor:this.state.color , fontSize:this.state.fontSize}}                
+                  style={{borderColor:this.state.color , fontSize:this.state.fontSize, color:this.state.color}}                
                 />
             </div>
           </div>

@@ -33,7 +33,7 @@ class App extends Component {
       {
         id:4,
         name:'Samsung s9',
-        src:'https://cdn.fptshop.com.vn/Uploads/Originals/2017/7/26/636366659002447982_800.jpg',
+        src:'https://cdn.tgdd.vn/Products/Images/42/142465/samsung-galaxy-a8-plus-2018-hh-600x600.jpg',
         price:2500000,
         status:true
       }
