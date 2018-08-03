@@ -5,6 +5,7 @@ import Bai2 from './Components/Bai2';
 import Bai3 from './Components/Bai3';
 import Bai4 from './Components/Bai4';
 import Projectcolor from './Components/Project-color';
+import Bai5 from './Components/Bai5';
 
 class App extends Component {
   render() {
@@ -76,6 +77,7 @@ class App extends Component {
                   </div>
                   <Bai4></Bai4>
                   <Projectcolor></Projectcolor>
+                  <Bai5></Bai5>
                 </div>
             </div>
     );
